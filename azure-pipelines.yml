@@ -1,0 +1,6 @@
+trigger:
+- master
+pool:
+  vmImage: 'windows-latest'
+steps:
+- task: CredScan@2
